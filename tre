@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvey Garrett aka Xtreme</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #FFD700;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .about-me, .contact {
+            padding: 20px 0;
+            border-bottom: 1px solid #FFD700;
+        }
+        .section-title {
+            font-size: 2em;
+            border-bottom: 2px solid #FFD700;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .about-me p, .contact p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 1em;
+            border: 1px solid #FFD700;
+            background-color: #333;
+            color: #FFD700;
+        }
+        .contact-form input[type="submit"] {
+            background-color: #FFD700;
+            color: #000;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #DAA520;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Harvey Garrett aka Xtreme</h1>
+        </header>
+
+        <section class="about-me">
+            <h2 class="section-title">About Me</h2>
+            <p>Hi, I'm Harvey Garrett, also known as Xtreme. I'm 13 years old and already pretty big for my age. I'm 6 foot 1 and weigh 84 kg. I can bench 85 kg. I have a keen interest in Fortnite, Call of Duty, and training hard in the gym. Gaming and fitness are my passions, and I strive to excel in both.</p>
+        </section>
+
+        <section class="contact">
+            <h2 class="section-title">Contact</h2>
+            <p>If you want to get in touch, please fill out the form below:</p>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
